@@ -1,4 +1,7 @@
 /*! responsive-nav.js 1.0.39 by @viljamis */
+a:link{
+  color: #585858;
+}
 
 .nav-collapse ul {
   margin: 0;
@@ -27,7 +30,7 @@
 }
 
 .nav-toggle {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(58 58 58);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
