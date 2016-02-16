@@ -1,0 +1,57 @@
+body {
+  font-family: FuturaLight, arial, sans-serif;
+  text-decoration: none;
+}
+.wrapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  margin-top: 40px;
+  font-size: 80px;
+  text-align: center;
+}
+.social {
+  margin-top: 40px;
+  text-align: center;
+}
+.social a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+.social a:last-child {
+  margin-right: 0;
+}
+.social a:hover {
+  text-decoration: none;
+}
+.social a i {
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  width: 24px;
+  height: 24px;
+  font-size: 17px;
+  line-height: 24px;
+}
+.social a:hover i {
+  background-color: white;
+  color: black;
+}
+.pictures {
+  margin-top: 40px;
+  display: block;
+}
+.pictures img {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.pictures img:hover {
+  opacity: 0.7;
+}
+.pictures img:nth-child(3n) {
+  margin-right: 0;
+}
